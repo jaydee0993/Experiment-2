@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main ()
+
+{
+	
+ int R,C; 
+ bool coaster = false;
+  	 
+ do
+{
+ cout << "Number of columns: "; cin >> C;
+ cout << "Number of rows: "; cin >> R;
+  		
+  		
+ {
+  for ( int y = 0; y < C; y++ )
+ {
+  cout << "\n*";
+  for ( int x = 1; x < R; x++ )
+  {
+  cout << "*";
+					  			            }
+  			 	
+			  		                  }
+		                          }
+		  
+	cout << "\n\n";
+		
+	}while (!coaster);
+	 
+	
+	return 0;
+	 
+}    
